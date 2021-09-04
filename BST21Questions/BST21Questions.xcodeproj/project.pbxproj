@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F760646B264E3CCC00645697 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606464264E3CCC00645697 /* Node.m */; };
+		F760646C264E3CCC00645697 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606466264E3CCC00645697 /* ListNode.m */; };
+		F760646D264E3CCC00645697 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606467264E3CCC00645697 /* Tree.m */; };
+		F760646E264E3CCC00645697 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = F760646A264E3CCC00645697 /* LinkedList.m */; };
+		F7F481C526418F8C0056C39F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F481C426418F8C0056C39F /* AppDelegate.m */; };
+		F7F481C826418F8C0056C39F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F481C726418F8C0056C39F /* ViewController.m */; };
+		F7F481CA26418F8D0056C39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F481C926418F8D0056C39F /* Assets.xcassets */; };
+		F7F481CD26418F8D0056C39F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F481CB26418F8D0056C39F /* Main.storyboard */; };
+		F7F481D026418F8D0056C39F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F481CF26418F8D0056C39F /* main.m */; };
+		F7F481DE264190BA0056C39F /* pseudocode.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F7F481DD264190BA0056C39F /* pseudocode.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7606463264E3CCC00645697 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		F7606464264E3CCC00645697 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		F7606465264E3CCC00645697 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		F7606466264E3CCC00645697 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		F7606467264E3CCC00645697 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		F7606468264E3CCC00645697 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		F7606469264E3CCC00645697 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		F760646A264E3CCC00645697 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		F7F481C026418F8C0056C39F /* BST21Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BST21Questions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F481C326418F8C0056C39F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7F481C426418F8C0056C39F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7F481C626418F8C0056C39F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7F481C726418F8C0056C39F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7F481C926418F8D0056C39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7F481CC26418F8D0056C39F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7F481CE26418F8D0056C39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F481CF26418F8D0056C39F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7F481D126418F8D0056C39F /* BST21Questions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BST21Questions.entitlements; sourceTree = "<group>"; };
+		F7F481DD264190BA0056C39F /* pseudocode.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = pseudocode.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F481BD26418F8C0056C39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F481B726418F8C0056C39F = {
+			isa = PBXGroup;
+			children = (
+				F7F481C226418F8C0056C39F /* BST21Questions */,
+				F7F481C126418F8C0056C39F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F481C126418F8C0056C39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F481C026418F8C0056C39F /* BST21Questions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F481C226418F8C0056C39F /* BST21Questions */ = {
+			isa = PBXGroup;
+			children = (
+				F7F481C326418F8C0056C39F /* AppDelegate.h */,
+				F7F481C426418F8C0056C39F /* AppDelegate.m */,
+				F7F481C626418F8C0056C39F /* ViewController.h */,
+				F7F481C726418F8C0056C39F /* ViewController.m */,
+				F7F481DD264190BA0056C39F /* pseudocode.rtf */,
+				F7F481C926418F8D0056C39F /* Assets.xcassets */,
+				F7F481CB26418F8D0056C39F /* Main.storyboard */,
+				F7F481CE26418F8D0056C39F /* Info.plist */,
+				F7F481CF26418F8D0056C39F /* main.m */,
+				F7606463264E3CCC00645697 /* LinkedList.h */,
+				F760646A264E3CCC00645697 /* LinkedList.m */,
+				F7606465264E3CCC00645697 /* ListNode.h */,
+				F7606466264E3CCC00645697 /* ListNode.m */,
+				F7606469264E3CCC00645697 /* Node.h */,
+				F7606464264E3CCC00645697 /* Node.m */,
+				F7606468264E3CCC00645697 /* Tree.h */,
+				F7606467264E3CCC00645697 /* Tree.m */,
+				F7F481D126418F8D0056C39F /* BST21Questions.entitlements */,
+			);
+			path = BST21Questions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F481BF26418F8C0056C39F /* BST21Questions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F481D426418F8D0056C39F /* Build configuration list for PBXNativeTarget "BST21Questions" */;
+			buildPhases = (
+				F7F481BC26418F8C0056C39F /* Sources */,
+				F7F481BD26418F8C0056C39F /* Frameworks */,
+				F7F481BE26418F8C0056C39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BST21Questions;
+			productName = BST21Questions;
+			productReference = F7F481C026418F8C0056C39F /* BST21Questions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F481B826418F8C0056C39F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F7F481BF26418F8C0056C39F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F7F481BB26418F8C0056C39F /* Build configuration list for PBXProject "BST21Questions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7F481B726418F8C0056C39F;
+			productRefGroup = F7F481C126418F8C0056C39F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F481BF26418F8C0056C39F /* BST21Questions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F481BE26418F8C0056C39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F481DE264190BA0056C39F /* pseudocode.rtf in Resources */,
+				F7F481CA26418F8D0056C39F /* Assets.xcassets in Resources */,
+				F7F481CD26418F8D0056C39F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F481BC26418F8C0056C39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F481C826418F8C0056C39F /* ViewController.m in Sources */,
+				F760646E264E3CCC00645697 /* LinkedList.m in Sources */,
+				F7F481D026418F8D0056C39F /* main.m in Sources */,
+				F7F481C526418F8C0056C39F /* AppDelegate.m in Sources */,
+				F760646D264E3CCC00645697 /* Tree.m in Sources */,
+				F760646C264E3CCC00645697 /* ListNode.m in Sources */,
+				F760646B264E3CCC00645697 /* Node.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7F481CB26418F8D0056C39F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F481CC26418F8D0056C39F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F481D226418F8D0056C39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7F481D326418F8D0056C39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F7F481D526418F8D0056C39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BST21Questions/BST21Questions.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BST21Questions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DSnAlgo.BST21Questions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7F481D626418F8D0056C39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BST21Questions/BST21Questions.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BST21Questions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DSnAlgo.BST21Questions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F481BB26418F8C0056C39F /* Build configuration list for PBXProject "BST21Questions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F481D226418F8D0056C39F /* Debug */,
+				F7F481D326418F8D0056C39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F481D426418F8D0056C39F /* Build configuration list for PBXNativeTarget "BST21Questions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F481D526418F8D0056C39F /* Debug */,
+				F7F481D626418F8D0056C39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F481B826418F8C0056C39F /* Project object */;
+}
